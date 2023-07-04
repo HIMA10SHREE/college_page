@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="image_body">
+        <nav>
+            <a href="index.html" ><img src="images/logo.png"></a>
+            <div class="nav-links" id="navlink">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSES</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        <div class="text">
+            <h1>Premium Institute of Assam</h1>
+            <p>Welcome to Jorhat Engineering College.We believe in delivering excellent knowledge.</p>
+            <a href="" class="know-btn">Know More</a>
+        </div>
+    </section>
+    <!--------------------------Courses----------------------------------->
+
+
+
+    <section class="courses">
+        <h1>Courses we offer</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>Bachelors of Technology</h3>
+            
+                <p>We have five different branches of engineering.They are:<br>
+                    
+                         Computer Science and Engineering.<br>
+                         Civil Engineering.<br>
+                         Electical Engineering.<br>
+                         Mechanical Engineering.<br>
+                         Instrumentation Engineering.
+                        
+                    
+                </p>
+                
+                
+            </div>
+            <div class="course-col">
+                <h3>Masters of Technology</h3>
+                <p>We offer M.Tech for two branches.They are:<br>
+                    
+                        Electrical Engineering<br>
+                        Civil Engineering
+                   
+                </p>
+                
+            </div>
+            <div class="course-col">
+                <h3>Masters of Computer Application</h3>
+                <p>We also offer MCA courses.</p>
+                
+            </div>
+
+        </div>
+        
+    </section>
+    <section class="campus">
+        <h1>Our Campus</h1>
+        <p>We have  a lush green campus.</p>
+        <div class="row">
+        <div class="campus-col">
+            <img src="images/campus1.jpeg">
+            <div class="layer">
+                <h3>Top view</h3>
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="images/campus2.jpeg">
+            <div class="layer">
+                <h3>Front view</h3>
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="images/campus3.jpeg">
+            <div class="layer">
+                <h3>Side view</h3>
+            </div>
+        </div>
+
+
+        </div>
+    </section>
+
+   <section class="facilities">
+    <h1> Facilities</h1>
+    <p>We have the following facilites available:<br>
+        Free Wi-fi<br>Available Bus Service<br>
+        9-4 Library facility<br>
+        Hostels for both boys and girls with LAN facility.
+    </p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.jpeg">
+            <h3>Library</h3>
+            <p>We have a large playgound to conduct college sports.</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="images/tnp.jpeg">
+            <h3>Training and Placement Office</h3>
+            <p>We have a tranning and placement office to conduct our campus drives.</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="images/field.jpeg">
+            <h3>PlayField</h3>
+            <p>We have a large playgound to conduct college sports.</p>
+        </div>
+
+
+    </div>
+   </section>
+
+
+   <section class="cta">
+    <h1>Enroll for new batches</h1>
+    <a href="" class="know-btn">CONTACT US</a>
+   </section>
+
+
+   <section class="footer">
+    <h4>About Us</h4>
+    <p>Jorhat Engineering College is a primere institute of Assam that has completed 60 yeas of its service.The College 
+        is affiliated to Assam Science and Technology University currently offers AICTE recognised B.tech ,M.tech courses.
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+
+
+   </section>
+
+
+    <script>
+        var navlink=document.getElementById("navlink");
+        function showMenu(){
+            navlink.style.right="0px";
+        }
+
+        function hideMenu(){
+            navlink.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>
